@@ -1,0 +1,94 @@
+body{
+  width: 100%;
+  height:100%;
+  margin: 0 auto;
+  background: url("../images/bc.jpg") center top no-repeat;
+}
+
+.mast{
+  float: left;
+  width: 30%;
+}
+
+.intro, .main, .footer{
+  float: right;
+  width: 67%;
+}
+
+ul li{
+  list-style: none;
+}
+
+.logo img{
+  width: 95%;
+  height: auto;
+  max-width: 100%;
+  margin: 0 1em;
+}
+
+.page nav{
+  margin:0%;
+  font-size: 90%;
+}
+
+
+.nav{
+  margin:27% auto;
+  text-align: center;
+  border-top: 1px solid #888583;
+  width: 90%;
+  font-size: larger;
+  font-family: cursive;
+}
+
+.small-hr{
+   border-style: hidden;
+}
+
+.intro{
+  color: #222;
+}
+
+.intro .intro-title{
+  text-align: center;
+  font-size: 153%;
+}
+
+.intro .intro-content{
+  font-size: 100%;
+  font-weight: normal;
+  font-family: cursive;
+}
+
+.main ul{
+  margin: 5% auto;
+  padding: 0%;
+}
+
+.main .theme{
+  border-color: #9A9B95;
+  border-style: double;
+}
+
+.main ul li{
+  display: inline-block;
+  width: 21%;
+  height: 100%;
+  margin: auto 5%;
+  text-align: center;
+  font-size: 90%;
+}
+
+.main img{
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.main .img-text{
+  text-align: center;
+}
+
+.footer .site-info{
+  text-align: center;
+}
